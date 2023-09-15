@@ -1,0 +1,94 @@
+---
+title: "simple_quarto_website"
+bibliography: reference.bib
+toc: true
+---
+
+
+# Introduction
+This is the introduction section of my document.
+
+## Section 1
+This is the first subsection of the document.
+
+:::: {.columns}
+::: {.column width="50%"}
+### weather
+
+The weather is good today, not raining, not too wet, not too dry
+:::
+
+::: {.column width="40%"}
+### climate change
+
+climate change will influence may people including everyone 
+
+:::
+::::
+
+### Subsection 1.1
+This is a subsubsection.
+
+This is a Mermaid diagram
+```{mermaid}
+%%| fig-cap: "A Mermaid diagram"
+%%| code-fold: false
+flowchart LR
+  A[Add water, egg, premix] --> B(Stir)
+  B --> C{Oven}
+  C --> D[Good desert]
+  C --> E[Cannot eat]
+```
+
+## Section 2
+This is the second subsection of the document.
+
+::: {layout-ncol=2}
+### Chouchou
+
+- like park
+- like people
+- not like other puppies
+
+### Meimei
+
+- like snack
+- like stretch
+- no like hug
+:::
+
+This is one instance of the citation from bib file
+
+[@ghosal2020short]
+
+Meimei | Chouchou
+---------|---------
+like    | like
+likeno    | likeno
+
+![alt text](IMG-5122.jpg)
+
+![Alt Text](unnamed.jpg)
+
+
+{{< video (https://www.youtube.com/watch?v=HZGCoVF3YvM) >}}
+
+>https://www.youtube.com/watch?v=HZGCoVF3YvM
+
+$$
+P(A|B)=\frac{P(B|A)P(A)}{P(B)}
+$$
+
+$y=x^2-6$
+[^1]
+
+# Conclusion
+This is the conclusion section.
+
+[^1]: Here is the footnote content.
+
+# Reference
+This is the reference section.
+
+[@saxena2017review]
+

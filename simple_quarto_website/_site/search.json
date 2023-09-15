@@ -1,0 +1,72 @@
+[
+  {
+    "objectID": "slides/slides.html#introduction",
+    "href": "slides/slides.html#introduction",
+    "title": "Habits",
+    "section": "Introduction",
+    "text": "Introduction\nThis is the first slide.\n\nalt text"
+  },
+  {
+    "objectID": "slides/slides.html#slide-2",
+    "href": "slides/slides.html#slide-2",
+    "title": "Habits",
+    "section": "Slide 2",
+    "text": "Slide 2\nThis is the second slide.\n\nalt text"
+  },
+  {
+    "objectID": "slides/slides.html#slide-3",
+    "href": "slides/slides.html#slide-3",
+    "title": "Habits",
+    "section": "Slide 3",
+    "text": "Slide 3\n#| echo: false\n#| code-fold: true\n#| code-summary: \"expand for full code\"\n\nimport matplotlib.pyplot as plt\nimport numpy as np\n\nx = np.random.rand(77) \n\nplt.hist(x, bins=20, label='Random Data', color='pink', alpha=0.7)\n\nplt.xlabel('X')\nplt.ylabel('Frequency')\nplt.title('Histogram of Random Data')\nplt.legend()\n\nplt.show()"
+  },
+  {
+    "objectID": "slides/slides.html#slide-4",
+    "href": "slides/slides.html#slide-4",
+    "title": "Habits",
+    "section": "Slide 4",
+    "text": "Slide 4\n(Ghosal et al. 2020)\n\n\nexpand for full code\nimport matplotlib.pyplot as plt\nimport numpy as np\n\nx = np.random.rand(77) \n\nplt.hist(x, bins=20, label='Random Data', color='pink', alpha=0.7)\n\nplt.xlabel('X')\nplt.ylabel('Frequency')\nplt.title('Histogram of Random Data')\nplt.legend()\n\nplt.show()"
+  },
+  {
+    "objectID": "slides/slides.html#slide-5",
+    "href": "slides/slides.html#slide-5",
+    "title": "Habits",
+    "section": "Slide 5",
+    "text": "Slide 5\n\n\n\n\n\n\nGhosal, Attri, Arunima Nandy, Amit Kumar Das, Saptarsi Goswami, and Mrityunjoy Panday. 2020. “A Short Review on Different Clustering Techniques and Their Applications.” Emerging Technology in Modelling and Graphics: Proceedings of IEM Graph 2018, 69–83."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "This is the introduction section of my document.\n\n\nThis is the first subsection of the document.\n\n\n\n\nThe weather is good today, not raining, not too wet, not too dry\n\n\n\n\nclimate change will influence may people including everyone\n\n\n\n\n\nThis is a subsubsection.\nThis is a Mermaid diagram\n\n\n\n\nflowchart LR\n  A[Add water, egg, premix] --&gt; B(Stir)\n  B --&gt; C{Oven}\n  C --&gt; D[Good desert]\n  C --&gt; E[Cannot eat]\n\n\nA Mermaid diagram\n\n\n\n\n\n\n\nThis is the second subsection of the document.\n\n\n\n\n\nlike park\nlike people\nnot like other puppies\n\n\n\n\n\nlike snack\nlike stretch\nno like hug\n\n\n\n\nThis is one instance of the citation from bib file\n(Ghosal et al. 2020)\n\n\n\nMeimei\nChouchou\n\n\n\n\nlike\nlike\n\n\nlikeno\nlikeno\n\n\n\n\n\n\nalt text\n\n\n\n\n\nAlt Text\n\n\n\n\nhttps://www.youtube.com/watch?v=HZGCoVF3YvM\n\n\\[\nP(A|B)=\\frac{P(B|A)P(A)}{P(B)}\n\\]\n\\(y=x^2-6\\) 1"
+  },
+  {
+    "objectID": "index.html#section-1",
+    "href": "index.html#section-1",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "This is the first subsection of the document.\n\n\n\n\nThe weather is good today, not raining, not too wet, not too dry\n\n\n\n\nclimate change will influence may people including everyone\n\n\n\n\n\nThis is a subsubsection.\nThis is a Mermaid diagram\n\n\n\n\nflowchart LR\n  A[Add water, egg, premix] --&gt; B(Stir)\n  B --&gt; C{Oven}\n  C --&gt; D[Good desert]\n  C --&gt; E[Cannot eat]\n\n\nA Mermaid diagram"
+  },
+  {
+    "objectID": "index.html#section-2",
+    "href": "index.html#section-2",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "This is the second subsection of the document.\n\n\n\n\n\nlike park\nlike people\nnot like other puppies\n\n\n\n\n\nlike snack\nlike stretch\nno like hug\n\n\n\n\nThis is one instance of the citation from bib file\n(Ghosal et al. 2020)\n\n\n\nMeimei\nChouchou\n\n\n\n\nlike\nlike\n\n\nlikeno\nlikeno\n\n\n\n\n\n\nalt text\n\n\n\n\n\nAlt Text\n\n\n\n\nhttps://www.youtube.com/watch?v=HZGCoVF3YvM\n\n\\[\nP(A|B)=\\frac{P(B|A)P(A)}{P(B)}\n\\]\n\\(y=x^2-6\\) 1"
+  },
+  {
+    "objectID": "index.html#footnotes",
+    "href": "index.html#footnotes",
+    "title": "simple_quarto_website",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nHere is the footnote content.↩︎"
+  }
+]
